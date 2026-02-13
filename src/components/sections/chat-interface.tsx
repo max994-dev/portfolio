@@ -140,7 +140,7 @@ export function ChatInterface() {
               You can also reach out to me directly via email for more formal inquiries.
             </p>
             <Button asChild variant="outline" size="sm">
-              <Link href="mailto:bmax99@outlook.com">
+              <Link href="mailto:bmax994@outlook.com">
                 Send Email
               </Link>
             </Button>

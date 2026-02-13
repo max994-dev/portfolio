@@ -85,7 +85,7 @@ export const siteConfig: SiteConfig = {
     website: 'https://bondarenko.dev',
     github: 'https://github.com/max99-dev',
     linkedin: 'https://www.linkedin.com/feed/',
-    email: 'mailto:bmax99@outlook.com',
+    email: 'mailto:bmax994@outlook.com',
   },
   social: [
     { label: 'GitHub', url: 'https://github.com/max99-dev', icon: 'github' },
