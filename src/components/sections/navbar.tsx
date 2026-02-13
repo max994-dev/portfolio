@@ -4,7 +4,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, useScroll, useMotionValueEvent } from 'motion/react';
-import { Menu, X, Github, Linkedin, Globe, Coffee } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Globe, Mail, FileText } from 'lucide-react';
 
 import { siteConfig } from '@/config/site.config';
 import { cn } from '@/lib/utils';
@@ -18,7 +18,7 @@ const iconMap = {
   github: Github,
   linkedin: Linkedin,
   globe: Globe,
-  coffee: Coffee,
+  mail: Mail,
 };
 
 export function Navbar() {
@@ -125,6 +125,18 @@ export function Navbar() {
               aria-label="GitHub Profile"
             >
               <Github className="h-4 w-4" />
+            </Link>
+          </Button>
+
+          <Button
+            variant="ghost"
+            size="sm"
+            asChild
+            className="h-8 w-8 p-0"
+          >
+            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+              <FileText className="h-4 w-4" />
+              
             </Link>
           </Button>
 
