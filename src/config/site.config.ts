@@ -96,7 +96,7 @@ export const siteConfig: SiteConfig = {
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Posts', href: '/posts' },
+    // { label: 'Posts', href: '/posts' },
     { label: 'Chat', href: '/chat' },
     { label: 'Contact', href: '/contact' }
   ],
