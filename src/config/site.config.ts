@@ -34,7 +34,6 @@ export interface SiteConfig {
     website: string;
     github: string;
     linkedin: string;
-    tips: string;
     email: string;
   };
   social: SocialLink[];
@@ -56,15 +55,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  siteName: 'Muhammad Fiaz',
-  domain: 'muhammadfiaz.com',
-  author: 'Muhammad Fiaz',
+  siteName: 'Maksym Bondarenko',
+  domain: 'bondarenko.dev',
+  author: 'Maksym Bondarenko',
   description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
   about:
     'I am a Full Stack developer who loves creating new things. I spend my spare time building free apps & tools, and I am currently diving into Machine Learning & AI to expand my problem‑solving toolkit. Always open to collaboration & new challenges.',
     author_img: 'https://avatars.githubusercontent.com/u/75434191?v=4',
     keywords: [
-    'Muhammad Fiaz',
+    'Maksym Bondarenko',
     'Full Stack Developer',
     'Portfolio',
     'Next.js',
@@ -76,24 +75,22 @@ export const siteConfig: SiteConfig = {
     'AI'
   ],
   ogImage: '/og.png',
-  twitterHandle: '@muhammadfiaz_',
+  twitterHandle: '',
 
   theme: {
     default: 'dark',
-    allowSystem: true,
+    allowSystem: true
   },
   links: {
-    website: 'https://muhammadfiaz.com',
-    github: 'https://github.com/muhammad-fiaz',
+    website: 'https://bondarenko.dev',
+    github: 'https://github.com/max99-dev',
     linkedin: 'https://www.linkedin.com/feed/',
-    tips: 'https://pay.muhammadfiaz.com',
-    email: 'mailto:contact@muhammadfiaz.com',
+    email: 'mailto:bmax99@outlook.com',
   },
   social: [
-    { label: 'GitHub', url: 'https://github.com/muhammad-fiaz', icon: 'github' },
+    { label: 'GitHub', url: 'https://github.com/max99-dev', icon: 'github' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/feed/', icon: 'linkedin' },
-    { label: 'Website', url: 'https://muhammadfiaz.com', icon: 'globe' },
-    { label: 'Tip', url: 'https://pay.muhammadfiaz.com', icon: 'coffee' },
+    { label: 'Website', url: 'https://bondarenko.dev', icon: 'globe' },
   ],
   navigation: [
     { label: 'Home', href: '/' },
@@ -106,10 +103,10 @@ export const siteConfig: SiteConfig = {
 
   
   seo: {
-    title: 'Muhammad Fiaz',
+    title: 'Maksym Bondarenko',
     description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
     keywords: [
-      'Muhammad Fiaz',
+      'Maksym Bondarenko',
       'Full Stack Developer',
       'Portfolio',
       'Next.js',
@@ -120,9 +117,9 @@ export const siteConfig: SiteConfig = {
       'Machine Learning',
       'AI'
     ],
-    canonical: 'https://muhammadfiaz.com',
+    canonical: 'https://bondarenko.dev',
     image: '/og.png',
-    imageAlt: "Muhammad Fiaz - Full Stack Developer",
+    imageAlt: "Maksym Bondarenko - Full Stack Developer",
     locale: 'en-US',
     type: 'website',
     twitterCard: 'summary_large_image',
