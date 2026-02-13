@@ -18,14 +18,7 @@ export function AboutContent() {
 
         <CardHeader className="relative z-10 flex flex-col items-center justify-center gap-4 pt-8 pb-2">
           <div className="relative w-48 h-48 overflow-hidden border-4 border-primary shadow-xl bg-background">
-            <Image
-              src={siteConfig.author_img}
-              alt={`${siteConfig.author} profile`}
-              width={192}
-              height={192}
-              className="object-cover w-full h-full rounded-lg"
-              priority
-            />
+            <Image src="/img/next_logo.svg" alt="Next.js Logo" width={192} height={192} />
             {/* SaaS-style background effect */}
             <div className="absolute inset-0 pointer-events-none z-0">
               <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-[340px] h-[340px] bg-gradient-radial from-primary/30 to-transparent rounded-lg blur-2xl opacity-40 dark:opacity-60" />
