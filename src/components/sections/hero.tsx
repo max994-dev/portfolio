@@ -39,9 +39,9 @@ export function HeroSection() {
               themed
               className="mx-auto flex items-center justify-center w-fit max-w-full text-xs sm:text-sm md:text-base px-4 py-1.5 border border-border dark:border-secondary"
             >
-              <AnnouncementTag className="truncate">Email:</AnnouncementTag>
+              <AnnouncementTag className="truncate">Whatsapp:</AnnouncementTag>
               <AnnouncementTitle className="flex items-center gap-2">
-                bmax994@outlook.com
+                +38 (099) 847 7150
                 <ArrowUpRightIcon className="shrink-0 text-muted-foreground" size={16} />
               </AnnouncementTitle>
             </Announcement>
